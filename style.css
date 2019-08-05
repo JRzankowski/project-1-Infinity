@@ -30,7 +30,7 @@ html {
 
 .headMenu .headLogo a {
     display: block;
-    background-image: url(/images/logo.png);
+    background-image: url(images/logo.png);
     width: 51px;
     height: 24px;
     background-size: contain;
@@ -215,7 +215,7 @@ html {
 
 /*----------------------HOME------------------------ */
 .home {
-    background-image: url(../images/hero-bg.jpg);
+    background-image: url(images/hero-bg.jpg);
     background-repeat: no-repeat;
     background-position: center 30%;
     background-size: cover;
@@ -402,7 +402,7 @@ html {
 /*----------------------SERVICES------------------------ */
 
 .services {
-    background-image: url(/images/services-bg.jpg);
+    background-image: url(images/services-bg.jpg);
     background-repeat: no-repeat;
     background-position: top;
     background-attachment: fixed;
@@ -738,7 +738,7 @@ html {
 /*----------------------CONTACT------------------------ */
 
 .contact {
-    background-image: url(/images/contact-bg.jpg);
+    background-image: url(images/contact-bg.jpg);
     background-position: center;
     position: relative;
     background-size: cover;

@@ -67,10 +67,19 @@ const sliderSecondChange = () => {
 
 }
 /*-------------------scrollReveal--------------------------- */
+ScrollReveal().reveal('.home .homeText', {
+    easing: 'ease-in'
+});
 
+ScrollReveal().reveal(animationList, {
+    distance: '80%',
+    opacity: 0,
+    delay: 100,
+    duration: 1000,
 
+});
 
-/*---------------------------------------------- */
+/*-------------------burgerMenuBackground--------------------------- */
 
 burger.addEventListener("click", activeMenu);
 firstDot.addEventListener("click", sliderFirstChange);
@@ -83,15 +92,3 @@ window.addEventListener("scroll", function () {
         burger.classList.add("black");
     }
 })
-
-ScrollReveal().reveal('.home .homeText', {
-    easing: 'ease-in'
-});
-
-ScrollReveal().reveal(animationList, {
-    distance: '80%',
-    opacity: 0,
-    delay: 100,
-    duration: 1000,
-
-});
