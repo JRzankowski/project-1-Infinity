@@ -79,11 +79,12 @@ ScrollReveal().reveal(animationList, {
 
 });
 
-/*-------------------burgerMenuBackground--------------------------- */
+
 
 burger.addEventListener("click", activeMenu);
 firstDot.addEventListener("click", sliderFirstChange);
 secondDot.addEventListener("click", sliderSecondChange);
+/*-------------------burgerMenuBackground--------------------------- */
 window.addEventListener("scroll", function () {
     if (window.scrollY < 300) {
         burger.classList.remove("black");
